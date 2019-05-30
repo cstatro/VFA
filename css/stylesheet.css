@@ -20,3 +20,11 @@ header{
     background: #999999;
     border-bottom: 5px solid  rgb(95, 85, 85);
 }
+
+.kernel{
+    float:right;
+    height:auto;
+    width:7%;
+    margin-top: 14px;
+    margin-right: 15px;
+}
