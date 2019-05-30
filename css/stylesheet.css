@@ -1,0 +1,22 @@
+body{
+    background: url(../img/JSUF3K.jpg);
+}
+
+.wrapper{
+    width: 960px;
+    background: rgb(153,193,183)	;
+    margin:auto;
+    height: 1000px;
+    
+}
+#logo{
+    border: 3px black;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+header{
+    background: #999999;
+    border-bottom: 5px solid  rgb(95, 85, 85);
+}
