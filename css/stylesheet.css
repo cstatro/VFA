@@ -23,7 +23,8 @@ body{
 header{
     background: #999999;
     border-bottom: 5px solid  rgb(95, 85, 85);
-    overflow:auto;
+    overflow:visible;
+    height: 7.6em;
 }
 
 .kernel{
@@ -36,7 +37,7 @@ header{
 }
 
 header div.category{
-    width:100px;
+    width:120px;
     height: 25px;
     background: white;
     float: right;
@@ -52,11 +53,29 @@ h3{
     margin-top: 2px;
 }
 
-header div.dropdown{
+.dropdown{
     position: relative;
-    display: inline-block;
+    display: none;
+    width: 100%;
+    height: auto;
+    background: #555555;
+    overflow:auto;
+
+}
+
+.dropdown a{
+    text-decoration: none;
+    text-align: center;
+    font-family: telex,serif;
+    font-size: 1.05em;
+    color: azure;
+    margin-left: 10px;
+    display: block;
 }
 
 
+/*menu behavior */
+header div.category:hover{background: lawngreen;}
+header div.category:hover .dropdown{display: inline-block}
+.dropdown a:hover{color:rgba(253, 221, 39, 0.945)}
 
-header div:hover{background: lawngreen;}
