@@ -35,7 +35,7 @@ header{
     margin-left:22px;
 }
 
-header div{
+header div.category{
     width:100px;
     height: 25px;
     background: white;
@@ -51,5 +51,12 @@ h3{
     font-size: 1.05em;
     margin-top: 2px;
 }
+
+header div.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+
 
 header div:hover{background: lawngreen;}
